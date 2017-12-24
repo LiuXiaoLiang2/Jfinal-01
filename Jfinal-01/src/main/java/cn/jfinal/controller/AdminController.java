@@ -9,7 +9,7 @@ import com.jfinal.core.Controller;
 public class AdminController extends Controller{
 
 	public void index(){
-		//类似于向域中存储内容111222
+		//类似于向域中存储内容111222333
 		setAttr("msg", "hello jfinal 3.0");
 		//这里使用的使Jfinal的自带模版
 		renderTemplate("index.html");
