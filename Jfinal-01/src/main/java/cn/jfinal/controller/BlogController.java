@@ -9,7 +9,7 @@ import com.jfinal.core.Controller;
 public class BlogController extends Controller{
 
 	public void index(){
-		//类似于向域中存储内容
+		//类似于向域中存储内容fff
 		setAttr("msg", "hello jfinal 3.0");
 		//这里使用的使Jfinal的自带模版
 		renderTemplate("index.html");
